@@ -11,7 +11,7 @@ const Navbar = () => {
   const { pathname } = useLocation();
 
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light",
   );
 
   const handleTheme = (e) => {
