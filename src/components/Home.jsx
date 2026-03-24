@@ -12,7 +12,7 @@ const Home = () => {
   // console.log(active);
 
   const topTipsPromise = fetch(
-    "https://assignment-10-server-pink-beta.vercel.app/usersTips6"
+    "https://assignment-10-server-pink-beta.vercel.app/usersTips6",
   ).then((res) => res.json());
 
   useEffect(() => {
@@ -31,6 +31,7 @@ const Home = () => {
         // triggerTwice // Only animate once
         fraction={0.1} // Start animation when element is 50% visible
       >
+        {/* Meet the Garden Whisperers */}
         <h3 className="text-3xl font-bold drop-shadow-emerald-200 drop-shadow-sm text-green-900 text-center pt-10">
           Meet the Garden Whisperers
         </h3>
