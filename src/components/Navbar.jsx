@@ -196,6 +196,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+
         <div className="navbar-end">
           <label className="toggle text-base-content mr-1">
             <input
