@@ -61,13 +61,13 @@ The project uses the following npm packages:
 1. Clone the repository  
    `git clone https://github.com/nipaayasha05/greenspire-client.git`
 2. Navigate to the project directory  
-   `cd greenspire`
+   `cd greenspire-client`
 3. Install dependencies  
    `npm install`
 4. Create a `.env` file and add your Firebase config variables
 5. Start the development server  
-   `npm start`
-6. Open your browser and go to `http://localhost:3000`
+   `npm run dev`
+6. Open your browser and go to `http://localhost:5173`
 
 ### Resources
 
