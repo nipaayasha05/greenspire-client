@@ -1,6 +1,10 @@
 ## GreenSpire
 
-- GreenSpire is a gardening website where users can share and manage their gardening blog posts. They can also explore active gardeners, top blogs, and the plant of the month.
+- A community-driven gardening platform for sharing blogs, discovering gardeners, and exploring plant tips.
+
+## Description
+
+GreenSpire is a gardening based website.Here users can share their blog posts about gardening.They can easily delete and update their own blog posts.Users can view the active gardeners of the garden.They can see the top blog post about gardening.they can also explore the top plant of the month.
 
 ### Live Site URL : https://dancing-unicorn-47edd5.netlify.app/
 
@@ -11,15 +15,21 @@
 ### Technologies Used
 
 - React.js
-- Firebase Authentication
+- React Router
 - Tailwind CSS
+- DaisyUI
+- Firebase
+- Axios
+- Node.js
+- Express.js
+- MongoDB
 
 ### Dependencies
 
 The project uses the following npm packages:
 
-- @emotion/react
-- @tailwindcss/vite
+- emotion/react
+- tailwindcss/vite
 - daisyui
 - firebase
 - react
@@ -34,7 +44,7 @@ The project uses the following npm packages:
 - swiper
 - tailwindcss
 
-### Feature of this project
+### Key Features
 
 - Login and Logout functionality
 
@@ -46,14 +56,10 @@ The project uses the following npm packages:
 
 - Users can delete and update their own blog posts
 
-### Description:
-
-GreenSpire is a gardening based website.Here users can share their blog posts about gardening.They can easily delete and update their own blog posts.Users can view the active gardeners of the garden.They can see the top blog post about gardening.they can also explore the top plant of the month.
-
 ### How to Run Locally
 
 1. Clone the repository  
-   `git clone https://github.com/yourusername/greenspire.git`
+   `git clone https://github.com/nipaayasha05/greenspire-client.git`
 2. Navigate to the project directory  
    `cd greenspire`
 3. Install dependencies  
@@ -65,5 +71,6 @@ GreenSpire is a gardening based website.Here users can share their blog posts ab
 
 ### Resources
 
-- [GitHub Repository](https://github.com/nipaayasha05/garden-10)
+- [GitHub Repository](https://github.com/nipaayasha05/greenspire-client)
+- [Server Repository](https://github.com/nipaayasha05/greenspire-server)
 - [Live Demo](https://dancing-unicorn-47edd5.netlify.app/)
